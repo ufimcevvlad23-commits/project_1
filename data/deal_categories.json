@@ -1,0 +1,36 @@
+{
+  "result": [
+    {
+      "ID": "4",
+      "CREATED_DATE": "2024-10-19T03:00:00+03:00",
+      "NAME": "HR воронка",
+      "SORT": "200",
+      "IS_LOCKED": "N"
+    },
+    {
+      "ID": "6",
+      "CREATED_DATE": "2025-05-21T03:00:00+03:00",
+      "NAME": "В2В",
+      "SORT": "300",
+      "IS_LOCKED": "N"
+    },
+    {
+      "ID": "8",
+      "CREATED_DATE": "2025-07-28T03:00:00+03:00",
+      "NAME": "ТропикРент",
+      "SORT": "400",
+      "IS_LOCKED": "N"
+    }
+  ],
+  "total": 3,
+  "time": {
+    "start": 1760018617,
+    "finish": 1760018617.661025,
+    "duration": 0.6610250473022461,
+    "processing": 0,
+    "date_start": "2025-10-09T17:03:37+03:00",
+    "date_finish": "2025-10-09T17:03:37+03:00",
+    "operating_reset_at": 1760019217,
+    "operating": 0
+  }
+}

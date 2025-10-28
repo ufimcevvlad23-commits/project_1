@@ -1,0 +1,163 @@
+{
+  "4": [
+    {
+      "NAME": "Новый кандидат",
+      "SORT": 10,
+      "STATUS_ID": "C4:NEW"
+    },
+    {
+      "NAME": "Звонки",
+      "SORT": 20,
+      "STATUS_ID": "C4:UC_495IVF"
+    },
+    {
+      "NAME": "Чаты - обращения",
+      "SORT": 30,
+      "STATUS_ID": "C4:UC_EBU4M2"
+    },
+    {
+      "NAME": "Перезвонить",
+      "SORT": 40,
+      "STATUS_ID": "C4:UC_IILSZV"
+    },
+    {
+      "NAME": "Взять в работу",
+      "SORT": 50,
+      "STATUS_ID": "C4:PREPARATION"
+    },
+    {
+      "NAME": "Телефонное интервью наз..",
+      "SORT": 60,
+      "STATUS_ID": "C4:PREPAYMENT_INVOICE"
+    },
+    {
+      "NAME": "Телефонное интервью пр...",
+      "SORT": 70,
+      "STATUS_ID": "C4:EXECUTING"
+    },
+    {
+      "NAME": "Собеседование назначено",
+      "SORT": 80,
+      "STATUS_ID": "C4:FINAL_INVOICE"
+    },
+    {
+      "NAME": "Собеседование проведено",
+      "SORT": 90,
+      "STATUS_ID": "C4:UC_EVELRF"
+    },
+    {
+      "NAME": "Вышел на стажировку",
+      "SORT": 100,
+      "STATUS_ID": "C4:UC_S4BK9T"
+    },
+    {
+      "NAME": "Отказ",
+      "SORT": 110,
+      "STATUS_ID": "C4:UC_FP8F93"
+    },
+    {
+      "NAME": "Вышел на работу",
+      "SORT": 120,
+      "STATUS_ID": "C4:WON"
+    },
+    {
+      "NAME": "Отказ",
+      "SORT": 130,
+      "STATUS_ID": "C4:LOSE"
+    }
+  ],
+  "6": [
+    {
+      "NAME": "Новый Лид",
+      "SORT": 10,
+      "STATUS_ID": "C6:NEW"
+    },
+    {
+      "NAME": "Квалификация",
+      "SORT": 30,
+      "STATUS_ID": "C6:PREPARATION"
+    },
+    {
+      "NAME": "Формирование и отправка КП",
+      "SORT": 40,
+      "STATUS_ID": "C6:PREPAYMENT_INVOICE"
+    },
+    {
+      "NAME": "Согласование",
+      "SORT": 50,
+      "STATUS_ID": "C6:EXECUTING"
+    },
+    {
+      "NAME": "Подписание договора",
+      "SORT": 60,
+      "STATUS_ID": "C6:FINAL_INVOICE"
+    },
+    {
+      "NAME": "Реализация",
+      "SORT": 70,
+      "STATUS_ID": "C6:WON"
+    },
+    {
+      "NAME": "Завершена успешно",
+      "SORT": 80,
+      "STATUS_ID": "C6:LOSE"
+    },
+    {
+      "NAME": "Отложена",
+      "SORT": 90,
+      "STATUS_ID": "C6:APOLOGY"
+    },
+    {
+      "NAME": "Провалена",
+      "SORT": 100,
+      "STATUS_ID": "C6:UC_C9UJB1"
+    }
+  ],
+  "8": [
+    {
+      "NAME": "Новый заказ",
+      "SORT": 10,
+      "STATUS_ID": "C8:NEW"
+    },
+    {
+      "NAME": "Соглосование",
+      "SORT": 20,
+      "STATUS_ID": "C8:PREPARATION"
+    },
+    {
+      "NAME": "Ожидание оплаты",
+      "SORT": 30,
+      "STATUS_ID": "C8:PREPAYMENT_INVOICE"
+    },
+    {
+      "NAME": "Оплачено",
+      "SORT": 40,
+      "STATUS_ID": "C8:UC_3523ZJ"
+    },
+    {
+      "NAME": "Доставка",
+      "SORT": 50,
+      "STATUS_ID": "C8:EXECUTING"
+    },
+    {
+      "NAME": "Выполнен",
+      "SORT": 60,
+      "STATUS_ID": "C8:FINAL_INVOICE"
+    },
+    {
+      "NAME": "Сделка успешна",
+      "SORT": 70,
+      "STATUS_ID": "C8:WON"
+    },
+    {
+      "NAME": "Сделка провалена",
+      "SORT": 80,
+      "STATUS_ID": "C8:LOSE"
+    },
+    {
+      "NAME": "Анализ причины провала",
+      "SORT": 90,
+      "STATUS_ID": "C8:APOLOGY"
+    }
+  ]
+}
