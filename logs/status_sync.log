@@ -1,0 +1,118 @@
+2025-10-22 15:11:20,087 [INFO] 🚀 Flask сервер запущен и ожидает вебхуки Bitrix → hh.ru
+2025-10-22 15:11:20,122 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://45.93.201.187:5000
+2025-10-22 15:11:20,123 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-22 15:25:31,243 [ERROR] ❌ Ошибка обработки вебхука:
+Traceback (most recent call last):
+  File "/root/bitrix_hh_integration/status_sync.py", line 76, in bitrix_webhook
+    data = request.json
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-10-22 15:25:31,256 [INFO] 89.208.230.2 - - [22/Oct/2025 15:25:31] "[35m[1mPOST /status_sync HTTP/1.1[0m" 500 -
+2025-10-22 15:27:42,810 [ERROR] ❌ Ошибка обработки вебхука:
+Traceback (most recent call last):
+  File "/root/bitrix_hh_integration/status_sync.py", line 76, in bitrix_webhook
+    data = request.json
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-10-22 15:27:42,813 [INFO] 89.208.228.219 - - [22/Oct/2025 15:27:42] "[35m[1mPOST /status_sync HTTP/1.1[0m" 500 -
+2025-10-22 15:28:17,612 [ERROR] ❌ Ошибка обработки вебхука:
+Traceback (most recent call last):
+  File "/root/bitrix_hh_integration/status_sync.py", line 76, in bitrix_webhook
+    data = request.json
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-10-22 15:28:17,615 [INFO] 89.208.228.219 - - [22/Oct/2025 15:28:17] "[35m[1mPOST /status_sync HTTP/1.1[0m" 500 -
+2025-10-22 15:44:19,020 [ERROR] ❌ Ошибка обработки вебхука:
+Traceback (most recent call last):
+  File "/root/bitrix_hh_integration/status_sync.py", line 76, in bitrix_webhook
+    deal = res["result"] or {}
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-10-22 15:44:19,024 [INFO] 89.208.228.219 - - [22/Oct/2025 15:44:19] "[35m[1mPOST /status_sync HTTP/1.1[0m" 500 -
+2025-10-22 15:44:20,616 [ERROR] ❌ Ошибка обработки вебхука:
+Traceback (most recent call last):
+  File "/root/bitrix_hh_integration/status_sync.py", line 76, in bitrix_webhook
+    deal = res["result"] or {}
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-10-22 15:44:20,617 [INFO] 195.208.184.34 - - [22/Oct/2025 15:44:20] "[35m[1mPOST /status_sync HTTP/1.1[0m" 500 -
+2025-10-22 15:52:04,821 [ERROR] ❌ Ошибка обработки вебхука:
+Traceback (most recent call last):
+  File "/root/bitrix_hh_integration/status_sync.py", line 76, in bitrix_webhook
+    deal = res["result"] or {}
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-10-22 15:52:04,824 [INFO] 195.208.184.200 - - [22/Oct/2025 15:52:04] "[35m[1mPOST /status_sync HTTP/1.1[0m" 500 -
+2025-10-22 15:52:05,833 [ERROR] ❌ Ошибка обработки вебхука:
+Traceback (most recent call last):
+  File "/root/bitrix_hh_integration/status_sync.py", line 76, in bitrix_webhook
+    deal = res["result"] or {}
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-10-22 15:52:05,833 [INFO] 89.208.230.2 - - [22/Oct/2025 15:52:05] "[35m[1mPOST /status_sync HTTP/1.1[0m" 500 -
+2025-10-22 15:52:06,982 [ERROR] ❌ Ошибка обработки вебхука:
+Traceback (most recent call last):
+  File "/root/bitrix_hh_integration/status_sync.py", line 76, in bitrix_webhook
+    deal = res["result"] or {}
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/root/bitrix_hh_integration/venv/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-10-22 15:52:06,983 [INFO] 89.208.230.2 - - [22/Oct/2025 15:52:06] "[35m[1mPOST /status_sync HTTP/1.1[0m" 500 -
